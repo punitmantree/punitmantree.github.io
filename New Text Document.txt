@@ -1,0 +1,17 @@
+1. git add .
+2.git commit -m "Message"
+3.git push
+
+…or create a new repository on the command line
+
+echo "# AndroidProjects" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/punitmantree/AndroidProjects.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/punitmantree/AndroidProjects.git
+git push -u origin master
